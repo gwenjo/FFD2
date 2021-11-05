@@ -1,0 +1,28 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
+
+{% block inner_content %}
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col">
+            <h2 class="logo-font text-center">{% trans "Verify Your E-mail" %}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container general-container">
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <p>{% blocktrans %}We have sent an e-mail to you for verification. 
+                Follow the link provided to finalize the signup process. Please contact us at 
+                <a href="mailto:fancydaydesign2021@gmail.com">fancydaydesign2021@gmail.com</a>
+                if you do not receive it within a few minutes.{% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

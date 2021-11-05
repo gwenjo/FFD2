@@ -1,0 +1,660 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000001",
+        "name": "Balloon number 1",
+        "description": "The number 1 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_1.jpg"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000002",
+        "name": "Balloon number 2",
+        "description": "The number 2 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_2.jpg"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000003",
+        "name": "Balloon number 3",
+        "description": "The number 3 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": null,
+        "image": "balloon_3.jpg"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000004",
+        "name": "Balloon number 4",
+        "description": "The number 4 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.3,
+        "image_url": null,
+        "image": "balloon_4.jpg"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000005",
+        "name": "Balloon number 5",
+        "description": "The number 5 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_5.jpg"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000006",
+        "name": "Balloon number 6",
+        "description": "The number 6 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": null,
+        "image": "balloon_6.jpg"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000007",
+        "name": "Balloon number 7",
+        "description": "The number 7 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 5,
+        "image_url": null,
+        "image": "balloon_7.jpg"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000008",
+        "name": "Balloon number 8",
+        "description": "The number 8 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.4,
+        "image_url": null,
+        "image": "balloon_8.jpg"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000009",
+        "name": "Balloon number 9",
+        "description": "The number 9 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.3,
+        "image_url": null,
+        "image": "balloon_9.jpg"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000010",
+        "name": "Balloon number 0",
+        "description": "The number 0 balloon is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 2.25,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_0.jpg"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000011",
+        "name": "All numbers",
+        "description": "The balloons are also available in the whole range of numbers from 0-9. The balloons are 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 9.95,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_numbers.jpg"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000012",
+        "name": "Balloon letter A",
+        "description": "The balloon letter A is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_a.jpg"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000013",
+        "name": "Balloon letter B",
+        "description": "The balloon letter A is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": null,
+        "image": "balloon_b.jpg"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000014",
+        "name": "Balloon letter C",
+        "description": "The balloon letter C is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_c.jpg"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000015",
+        "name": "Balloon letter D",
+        "description": "The balloon letter D is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_d.jpg"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000016",
+        "name": "Balloon letter E",
+        "description": "The balloon letter E is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_e.jpg"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000017",
+        "name": "Balloon letter F",
+        "description": "The balloon letter F is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.8,
+        "image_url": null,
+        "image": "balloon_f.jpg"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000018",
+        "name": "Balloon letter G",
+        "description": "The balloon letter G is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": null,
+        "image": "balloon_g.jpg"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000019",
+        "name": "Balloon letter H",
+        "description": "The balloon letter H is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.3,
+        "image_url": null,
+        "image": "balloon_h.jpg"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000020",
+        "name": "Balloon letter I",
+        "description": "The balloon letter I is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_i.jpg"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000022",
+        "name": "Balloon letter J",
+        "description": "The balloon letter J is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_j.jpg"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000023",
+        "name": "Balloon letter K",
+        "description": "The balloon letter K is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": null,
+        "image": "balloon_k.jpg"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000024",
+        "name": "Balloon letter L",
+        "description": "The balloon letter L is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 1,
+        "image_url": null,
+        "image": "balloon_l.jpg"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000025",
+        "name": "Balloon letter M",
+        "description": "The balloon letter M is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_m.jpg"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000026",
+        "name": "Balloon letter N",
+        "description": "The balloon letter N is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_n.jpg"
+      }
+    },
+    {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000027",
+        "name": "Balloon letter O",
+        "description": "The balloon letter O is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 5,
+        "image_url": null,
+        "image": "balloon_o.jpg"
+      }
+    },
+    {
+      "pk": 28,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000028",
+        "name": "Balloon letter P",
+        "description": "The balloon letter P is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": null,
+        "image": "balloon_p.jpg"
+      }
+    },
+    {
+      "pk": 29,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000029",
+        "name": "Balloon letter Q",
+        "description": "The balloon letter Q is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.3,
+        "image_url": null,
+        "image": "balloon_q.jpg"
+      }
+    },
+    {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000030",
+        "name": "Balloon letter R",
+        "description": "The balloon letter R is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_r.jpg"
+      }
+    },
+    {
+      "pk": 31,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000031",
+        "name": "Balloon letter S",
+        "description": "The balloon letter S is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_s.jpg"
+      }
+    },
+    {
+      "pk": 32,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000032",
+        "name": "Balloon letter T",
+        "description": "The balloon letter T is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_t.jpg"
+      }
+    },
+    {
+      "pk": 33,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000033",
+        "name": "Balloon letter U",
+        "description": "The balloon letter U is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_u.jpg"
+      }
+    },
+    {
+      "pk": 34,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000034",
+        "name": "Balloon letter V",
+        "description": "The balloon letter V is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_v.jpg"
+      }
+    },
+    {
+      "pk": 35,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000035",
+        "name": "Balloon letter W",
+        "description": "The balloon letter W is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.8,
+        "image_url": null,
+        "image": "balloon_w.jpg"
+      }
+    },
+    {
+      "pk": 36,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000036",
+        "name": "Balloon letter X",
+        "description": "The balloon letter X is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_x.jpg"
+      }
+    },
+    {
+      "pk": 37,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000037",
+        "name": "Balloon letter Y",
+        "description": "The balloon letter Y is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 5,
+        "image_url": null,
+        "image": "balloon_y.jpg"
+      }
+    },
+    {
+      "pk": 38,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000038",
+        "name": "Balloon letter Z",
+        "description": "The balloon letter Z is 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 1.95,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": null,
+        "image": "balloon_z.jpg"
+      }
+    },
+    {
+      "pk": 39,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000039",
+        "name": "Balloon Alphabet",
+        "description": "The balloons are also available in the entire alphabet. The balloons are 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 20.95,
+        "category": 2,
+        "rating": 4.3,
+        "image_url": null,
+        "image": "balloon_alfabet.jpg"
+      }
+    },
+    {
+      "pk": 40,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000040",
+        "name": "Happy Birthday Balloon",
+        "description": "Birthday soon? Surprise the birthday boy or girl with this cheerful Happy Birthday balloon. The balloons are 40-45 centimeters long. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 13.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_bday.jpg"
+      }
+    },
+    {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000041",
+        "name": "Balloon TikTok",
+        "description": "The perfect decoration for an unforgettable TikTok party for you and your friends. This musical note has a dimension of 65x76. Give your party the ultimate experience with this fantastic balloon decoration. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium.",
+        "price": 11.95,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_tiktok.jpg"
+      }
+    },
+    {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000042",
+        "name": "Ring Balloon",
+        "description": "Give the bachelorette party an extra twist with this balloon in the shape of a ring. You can hang the balloons on the specially made holes that you can find on the top and bottom. Note: The balloons can be filled with helium. Dimensions: 81cm(H) x 50cm(W) x 25cm(D)",
+        "price": 3.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_ring.jpg"
+      }
+    },
+    {
+      "pk": 43,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000043",
+        "name": " LOVE Balloon",
+        "description": "Love is in the air! With this 73 x 59cm Love balloon, you will have the perfect balloon for your loved one! Whether for your best friend's birthday or as a chic decoration for Valentine's Day. The letters are connected and can be easily filled with helium so you can place the balloon in the room!",
+        "price": 3.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_love.jpg"
+      }
+    },
+    {
+      "pk": 44,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000044",
+        "name": "Gender Reveal Balloon",
+        "description": "This gender reveal balloon in black will complete your Gender Reveal Party. It's a super fun way to share with family and friends whether it's a boy or a girl! Let us know via the contact form and we will fill it with pink or blue confetti.",
+        "price": 9.95,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": null,
+        "image": "balloon_gender.jpg"
+      }
+    },
+    {
+      "pk": 45,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000045",
+        "name": "Balloon Bow",
+        "description": "This standard balloon arch is available in different colours. If you choose a different color, you can fill in the contact form. We then can see which colors you like.",
+        "price": 17.95,
+        "category": 3,
+        "rating": 4.8,
+        "image_url": null,
+        "image": "balloon_bow.jpg"
+      }
+    },
+    {
+      "pk": 46,
+      "model": "products.product",
+      "fields": {
+        "sku": "fd000000046",
+        "name": "Balloon Tree",
+        "description": "This custom Christmas tree is a combination of a christmas tree, balloons and other festive decorations. Note: The indicated price is the starting price. the actual price is on request and depends on what decoration you want in your tree.",
+        "price": 19.99,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": null,
+        "image": "balloon_tree.jpg"
+      }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+          "sku": "fd000000047",
+          "name": "Special box small",
+          "description": "Surprise someone with a bottle of Moët & Chandon champagne in a luxury box. Is it for Valentine's Day or just to be romantic. Contains: Bottle of Moët & Chandon (375ml), Ferrerro Rocher (chocolate) and fresh red roses. Do you want to give it a different personal touch? Please contact us via the contact form.",
+          "price": 17.95,
+          "category": 3,
+          "rating": 4.8,
+          "image_url": null,
+          "image": "balloon_special1.jpg"
+        }
+      },
+      {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+          "sku": "fd000000048",
+          "name": "Special box medium",
+          "description": "Surprise someone with a bottle of Moët & Chandon champagne in a luxury box. Is it for Valentine's Day or just to be romantic. Contains: Bottle of Moët & Chandon (375ml), Ferrerro Rocher (chocolate) and fresh red roses. Do you want to give it a different personal touch? Please contact us via the contact form.",
+          "price": 23.95,
+          "category": 3,
+          "rating": 4.8,
+          "image_url": null,
+          "image": "balloon_special2.jpg"
+        }
+      }
+  ]

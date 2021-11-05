@@ -1,0 +1,23 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Sign Up Closed" %}{% endblock %}
+
+{% block inner_content %}
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col">
+            <h2 class="logo-font text-center">{% trans "Sign Up Closed" %}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container general-container">
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <p class="text-center">{% trans "We are sorry, but the sign up is currently closed." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

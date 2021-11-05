@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- Profile header -->
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col text-center mt-3 mb-3 pb-1">
+            <h2 class="logo-font">Profile</h2>
+        </div>
+    </div>
+</div>
+<!-- Title Tabs -->
+<div class="container">
+    <div class="row shop-top-row">
+        <div class="col-12">
+            <div class="title_tabs">
+                <p class="title_tabs-text">
+                    <a href="{% url 'home' %}" class="tabs-link">Home</a>
+                    |
+                    <span class="active-tabs">My profile</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Content -->
+<div class="container profile-container">
+    <div class="row">
+        <div class="col-12">
+            <p class="mb-0">
+                Welcome to your profile page, {{ user.username }}!
+                <br>
+                Pleade take a look at all the products we have to offer. 
+                If you have any questions feel free to get in touch via our contact form.
+                <br>
+            </p>
+            <div class="div-profile-action-ctas pt-md-5 pb-md-5 mb-3 pt-3 pb-3">
+                <a href="{% url 'order_history' %}" class="cta cta-white">See order history</a>
+                <a href="{% url 'edit_profile' %}" class="cta cta-white">Edit profile details</a>
+            </div>
+            <div class="div-profile-action-ctas mb-3">
+                <a href="{% url 'products' %}" class="cta cta-black d-inline-block m-auto">Shop now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{% endblock %}

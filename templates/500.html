@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col text-center pb-1">
+            <h2 class="logo-font">500 - Internal Server Error</h2>
+            
+        </div>
+    </div>
+<!--- 500 error container --->
+    <div class="container general-container">
+        <div class="row">
+            <div class="col">
+                <p>
+                    Oops! The server encountered a problem and could not complete your request.
+                </p>
+                <!--- 500 error and link to return to homepage --->
+                <div class="error-page-ctas mt-4">
+                    <a class="cta cta-black mr-2 mb-2 d-inline-block" href="{% url 'products' %}">Go To Products</a>
+                    <a class="cta cta-white d-inline-block" href="{% url 'home' %}">Back to homepage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

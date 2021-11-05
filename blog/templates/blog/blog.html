@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- Header -->
+<div class="container-fluid">
+    <div class="row-products">
+        <div class="col text-center mt-3 mb-3 pb-1">
+            <h2 class="logo-font">Blog</h2>
+        </div>
+    </div>
+    <!-- Blog Page -->
+    <section>
+        <div class="container-fluid div-section">
+            <div class="container">
+                <div class="row">
+                    <h2 class="h2-style text-center"></h2>
+                </div>
+                <div class="row mt-3 text-center">
+                    <div class="container">
+                        <p class="paragraph-margin">
+                            You want to experience life to the fullest. When you create lifelong memories, you are actually investing in your life. Our experiences are a greater part of ourselves than our material goods.
+                            You can love material things, you may even think that part of your identity is connected to those things, but nevertheless they remain separate from you. In contrast, your experiences are truly part of you. We are all the sum of our experiences and more experience leads to more happiness.
+
+                        Creating parties with lifelong memories and providing a moment to escape from everyday reality for you and your guests.
+                        At Fancy Day Design, we feel fortunate to be in a position to provide such a positive and luxurious service.*</br></br>
+
+                    <small>* Not everyone can afford a birthday party, so I'd like to help those who can't afford a birthday. Everyone deserves to feel really happy. If you want, you can support this cause yourself. Feel free to take a look at the website <a href="https://uitgesteldekinderfeestjes.nl/">Uitgestelde Kinderfeestjes</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Blog Images -->
+    <div class="row home-section-3">
+    <div class="container">
+        <div class="row product-card-row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                    <div class="div-product-card-img">
+                        <img src="{{ MEDIA_URL }}blog-1.jpg" alt="Gender Reveal" class="home-card-3"> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                    <div class="div-product-card-img">
+                        <img src="{{ MEDIA_URL }}blog-2.jpg" alt="Mothersday" class="home-card-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                    <div class="div-product-card-img">
+                        <img src="{{ MEDIA_URL }}blog-3.jpg" alt="Theme Event" class="home-card-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- Blogs -->
+    <div class="bg-white-trans-blog">
+        <div class="row">
+            <div class="col-8 offset-2">
+            </div>
+        </div>
+        {% for post in posts %}
+        <div class="row mt-4">
+            <div class="col-8 offset-2">
+                <h3 class="blog-title mt-3">{{ post.title }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <div class="text-muted">{{ post.date_added | date:"d M - Y | h:i"}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <article>{{ post.intro }}</article>
+            </div>
+        </div>
+        <div class="row pb-2 mt-3">
+            <div class="col-8 offset-2">
+                <a href="{% url 'detail_post'  post.slug %}" class="read-text">Read the full blog post</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
